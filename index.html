@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./styles.css">
         <title>Responsive Layouts</title>
     </head>
@@ -13,13 +16,16 @@
                 <a href="#">
                     <img class="logo" src="./images/logo.svg" alt="logo">
                 </a>
+                <button class="nav-toggle" aria-label="open navigation">
+                    <span class="hamburger"></span>
+                </button>
                 <nav class="nav">
                     <ul class="nav__list">
                         <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
                         <li class="nav__item"><a class="nav__link" href="#">About</a></li>
                         <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
-                        <li class="nav__item"><a class="nav__link" href="#">Sign In</a></li>
-                        <li class="nav__item"><a class="nav__link" href="#">Sign Up</a></li>
+                        <li class="nav__item nav__item--push"><a class="nav__link" href="#">Sign In</a></li>
+                        <li class="nav__item"><a class="nav__link nav__link--button" href="#">Sign Up</a></li>
                     </ul>
                 </nav>
             </div>
@@ -108,5 +114,7 @@
                 </section>
             </div>
         </footer>
+
+        <script src="./main.js"></script>
     </body>
 </html>

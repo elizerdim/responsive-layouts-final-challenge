@@ -10,6 +10,7 @@ html {
 
 body {
     font-size: 1.6rem;
+    font-family: Montserrat, sans-serif;
 }
 
 /* edit this later */
@@ -21,4 +22,93 @@ img {
     width: 85%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+header {
+    background-color: #2E323F;
+    padding: 1em 0;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 3px;
+}
+
+.nav {
+    display: none;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.nav--visible {
+    display: block;
+}
+
+.nav-toggle {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    border: none;
+    background-color: #6F737F;
+    position: absolute;
+    top: 1em;
+    right: 7.5%;
+}
+
+.hamburger {
+    width: 50%;
+}
+
+.hamburger,
+.hamburger::after,
+.hamburger::before {
+    height: 3px;
+    display: block;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.hamburger::after,
+.hamburger::before {
+    content: "";
+    width: 100%;
+}
+
+.hamburger::after {
+    transform: translateY(3px);
+}
+
+.hamburger::before {
+    transform: translateY(-6px);
+}
+
+.nav__item,
+.footer__nav-item {
+    list-style: none;
+}
+
+.nav__link,
+.footer__nav-link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav__item {
+    margin-top: 1em;
+}
+
+.nav__item--push {
+    margin-top: 2em;
+}
+
+.nav__link {
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif;
+    font-size: 1.8rem;
+}
+
+.nav__link--button {
+    background-color: #A59678;
+    padding: 0.25em 1em;
+    border-radius: 100px;
 }
