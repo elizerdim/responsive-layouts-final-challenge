@@ -14,6 +14,7 @@ body {
 }
 
 img {
+    display: block;
     max-width: 100%;
 }
 
@@ -289,5 +290,40 @@ footer {
     .footer-links__item,
     .footer-links__title {
         text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .container {
+        width: 80%;
+    }
+
+    .flex-container--wide-screen {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav {
+        flex-grow: 0.3;
+        display: block;
+        padding: 0;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .nav__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav__item {
+        margin-top: 0;
+    }
+
+    .nav__item--push {
+        margin-left: 1.5em;
     }
 }
