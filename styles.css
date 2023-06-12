@@ -261,3 +261,33 @@ footer {
     line-height: 2.5em;
     text-align: center;
 }
+
+@media only screen and (min-width: 700px) {
+    .hero__title {
+        font-size: 9rem;
+    }
+
+    .hero__text {
+        margin: 2em 0;
+    }
+
+    .sidebar {
+        display: flex;
+        gap: 1em;
+    }
+
+    .footer-links {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+    
+    .footer-links > article {
+        justify-self: center;
+    }
+    
+    .footer-links__item,
+    .footer-links__title {
+        text-align: left;
+    }
+}
