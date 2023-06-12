@@ -297,6 +297,7 @@ footer {
 
     .row {
         display: flex;
+        justify-content: space-between;
     }
 
     .hero-col {
@@ -379,5 +380,27 @@ footer {
 
     .sidebar__card:nth-of-type(1) {
         margin-top: 0;
+    }
+
+    .footer-about__title,
+    .footer-about__text {
+        text-align: left;
+    }
+
+    .footer-about {
+        flex-basis: 40%;
+    }
+
+    .footer-links {
+        gap: 1em;
+    }
+
+    .footer-about__title,
+    .footer-links__title {
+        line-height: 3em;
+    }
+
+    .footer-about__text {
+        margin-top: 0.5em;
     }
 }
