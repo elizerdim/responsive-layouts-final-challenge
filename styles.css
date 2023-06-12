@@ -298,6 +298,15 @@ footer {
         width: 80%;
     }
 
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col {
+        align-self: self-end;
+    }
+
     .flex-container--wide-screen {
         display: flex;
         justify-content: space-between;
@@ -325,5 +334,24 @@ footer {
 
     .nav__item--push {
         margin-left: 1.5em;
+    }
+
+    header {
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+    }
+
+    .hero {
+        height: 100vh;
+        padding: 0;
+        position: relative;
+        top: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero__title {
+        line-height: 1em;
     }
 }
