@@ -299,7 +299,7 @@ footer {
         display: flex;
     }
 
-    .col {
+    .hero-col {
         align-self: self-end;
     }
 
@@ -361,5 +361,23 @@ footer {
 
     .features-section--gap {
         gap: 5em;
+    }
+
+    .primary-section {
+        padding: 8em 0;
+    }
+    
+    .primary-section-col {
+        flex-basis: 60%;
+    }
+
+    .sidebar {
+        display: unset;
+        flex-basis: 30%;
+        margin-left: auto;
+    }
+
+    .sidebar__card:nth-of-type(1) {
+        margin-top: 0;
     }
 }
