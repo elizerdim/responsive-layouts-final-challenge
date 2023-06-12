@@ -132,7 +132,7 @@ header {
 .nav__link--button {
     background-color: #A59678;
     padding: 0.25em 1em;
-    border-radius: 100px;
+    border-radius: 10em;
 }
 
 .hero {
@@ -300,8 +300,22 @@ footer {
         justify-content: space-between;
     }
 
-    .hero-col {
-        align-self: self-end;
+    header {
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        padding: 0.5em 0;
+    }
+
+    .logo-link {
+        padding: 0.5em;
+        border-radius: 1em;
+    }
+
+    .logo-link:hover {
+        background-color: #3B4050;
+        border-color: transparent;
+        cursor: pointer;
     }
 
     .flex-container--wide-screen {
@@ -322,7 +336,7 @@ footer {
 
     .nav__list {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
     }
 
     .nav__item {
@@ -333,10 +347,24 @@ footer {
         margin-left: 1.5em;
     }
 
-    header {
-        position: fixed;
-        z-index: 1;
-        width: 100%;
+    .nav__link {
+        padding: 0.25em 1.5em;
+        border-radius: 2em;
+    }
+
+    .nav__link:hover {
+        background-color: #3B4050;
+        cursor: pointer;
+    }
+
+    .nav__link--button {
+        padding: 0.25em 1.5em;
+        border-radius: 2em;
+    }
+
+    .nav__link--button:hover {
+        background-color: #6F737F;
+        cursor: pointer;
     }
 
     .hero {
@@ -347,6 +375,10 @@ footer {
         display: flex;
         align-items: center;
     }
+    
+    .hero-col {
+        align-self: self-end;
+    }
 
     .hero--gap {
         gap: 2em;
@@ -354,6 +386,11 @@ footer {
 
     .hero__title {
         line-height: 1em;
+    }
+
+    .hero__btn:hover {
+        background-color: #6F737F;
+        cursor: pointer;
     }
 
     .features-section {
@@ -382,17 +419,13 @@ footer {
         margin-top: 0;
     }
 
-    .footer-about__title,
-    .footer-about__text {
-        text-align: left;
-    }
-
     .footer-about {
         flex-basis: 40%;
     }
 
-    .footer-links {
-        gap: 1em;
+    .footer-about__title,
+    .footer-about__text {
+        text-align: left;
     }
 
     .footer-about__title,
@@ -402,5 +435,14 @@ footer {
 
     .footer-about__text {
         margin-top: 0.5em;
+    }    
+
+    .footer-links {
+        gap: 1em;
+    }
+
+    .footer-links__link:hover {
+        text-decoration: underline;
+        cursor: pointer;
     }
 }
