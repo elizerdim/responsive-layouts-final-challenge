@@ -170,7 +170,7 @@ header {
 
 .features-section {
     background-color: #F1F1F1;
-    padding: 3em 0;
+    padding: 2em 0 4em;
 }
 
 .features-section__title {
@@ -178,10 +178,7 @@ header {
     font-weight: bold;
     font-size: 3rem;
     color: #A59678;
-}
-
-.features-section__col + .features-section__col {
-    margin-top: 3em;
+    margin: 1em 0 0.5em;
 }
 
 .features-section__text {
@@ -300,7 +297,6 @@ footer {
 
     .row {
         display: flex;
-        justify-content: space-between;
     }
 
     .col {
@@ -351,7 +347,19 @@ footer {
         align-items: center;
     }
 
+    .hero--gap {
+        gap: 2em;
+    }
+
     .hero__title {
         line-height: 1em;
+    }
+
+    .features-section {
+        text-align: center;
+    }
+
+    .features-section--gap {
+        gap: 5em;
     }
 }
