@@ -63,4 +63,4 @@ I want to get more comfortable with mobile-first approach and get more practice 
 ### Useful resources
 
 - [Animated hamburger icons](https://codepen.io/designcouch/pen/ExvwPY) - These examples helped me a lot with the hamburger icon animation. I spent significant time examining the code for each one and adapted the first one to my project. I will probably refer back to this resource in other projects.
-- [<article> vs. <section>](https://www.smashingmagazine.com/2022/07/article-section-elements-accessibility/) - This is an amazing article which helped me understand the difference between <article> and <section> elements. 
+- [&lt;article&gt; vs. &lt;section&gt;](https://www.smashingmagazine.com/2022/07/article-section-elements-accessibility/) - This is an amazing article which helped me understand the difference between &lt;article&gt; and &lt;section&gt; elements. 
