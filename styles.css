@@ -422,6 +422,16 @@ footer {
 }
 
 @media (any-hover: hover) {
+    .logo-link {
+        padding: 0.5em;
+        border-radius: 1em;
+    }
+
+    .nav__link {
+        padding: 0.25em 1.5em;
+        border-radius: 2em;
+    }
+
     .logo-link:hover {
         background-color: #3B4050;
         border-color: transparent;
