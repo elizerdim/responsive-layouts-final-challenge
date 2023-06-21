@@ -312,12 +312,6 @@ footer {
         border-radius: 1em;
     }
 
-    .logo-link:hover {
-        background-color: #3B4050;
-        border-color: transparent;
-        cursor: pointer;
-    }
-
     .flex-container--wide-screen {
         display: flex;
         justify-content: space-between;
@@ -352,19 +346,9 @@ footer {
         border-radius: 2em;
     }
 
-    .nav__link:hover {
-        background-color: #3B4050;
-        cursor: pointer;
-    }
-
     .nav__link--button {
         padding: 0.25em 1.5em;
         border-radius: 2em;
-    }
-
-    .nav__link--button:hover {
-        background-color: #6F737F;
-        cursor: pointer;
     }
 
     .hero {
@@ -386,11 +370,6 @@ footer {
 
     .hero__title {
         line-height: 1em;
-    }
-
-    .hero__btn:hover {
-        background-color: #6F737F;
-        cursor: pointer;
     }
 
     .features-section {
@@ -439,6 +418,29 @@ footer {
 
     .footer-links {
         gap: 1em;
+    }
+}
+
+@media (any-hover: hover) {
+    .logo-link:hover {
+        background-color: #3B4050;
+        border-color: transparent;
+        cursor: pointer;
+    }
+
+    .nav__link:hover {
+        background-color: #3B4050;
+        cursor: pointer;
+    }
+
+    .nav__link--button:hover {
+        background-color: #6F737F;
+        cursor: pointer;
+    }
+
+    .hero__btn:hover {
+        background-color: #6F737F;
+        cursor: pointer;
     }
 
     .footer-links__link:hover {
