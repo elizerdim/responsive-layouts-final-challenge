@@ -438,6 +438,10 @@ footer {
         cursor: pointer;
     }
 
+    .nav-toggle:hover {
+        background-color: #3B4050;
+    }
+
     .nav__link:hover {
         background-color: #3B4050;
         cursor: pointer;
